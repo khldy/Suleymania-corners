@@ -4,11 +4,11 @@ function checkpassword () {
     
     const videoLinks = {
         "youssef": "https://www.youtube.com/watch?v=Fpksdschk-o",
-        "jannah" : "",
-        "yassmein": "",
-        "rufeyda": "",
-        "fedaa": "",
-        "abd": ""
+        "jannah" : "https://www.youtube.com/watch?v=0uYA-tq6jQc",
+        "yassmein": "https://www.youtube.com/watch?v=LR5WFy0UoPM",
+        "rufeyda": "https://www.youtube.com/watch?v=VB3p15NJP9g",
+        "fedaa": "https://www.youtube.com/watch?v=k8K0XHMxbZQ&t=108s",
+        "abd": "https://www.youtube.com/watch?v=r3S3_gj78BU&list=PLdDw-NyVFhQNk7sT5nPoGNHFMn_sjtcft&index=8"
     };
 
     if (videoLinks[password]) {
