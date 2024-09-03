@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+body {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh ;
+    margin: 0;
+    background-color: #105939;
+    font-family:  "Tajawal", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    padding-right: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0.1);
+    width: 300px;
+}
+
+img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #105939
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #105939;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    margin-left: 8px;
+    padding: 10px;
+    color: white;
+    background-color: #d5ac52;
+    border: 1px solid #105939;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #105939;
+}
+
+#error-message {
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .conatiner {
+        width: 90%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input, button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
