@@ -16,5 +16,6 @@ function checkpassword () {
     } else {
         errorMessage.textContent = "الباسورد مش صح جرب تاني";
         errorMessage.style.display = "block";
+        document.getElementById('password').value = "";
     }
 }
